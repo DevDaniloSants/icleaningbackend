@@ -1,0 +1,1 @@
+INSERT INTO customer (name,email,phone, lat_x, long_y) VALUES ($1, $2, $3, $4, $5);
