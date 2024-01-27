@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/server.js",
-    "start": "nohup node ./dist/server.js &",
+    "start": "node ./dist/server.js &",
     "build": "npx sucrase ./src -d ./dist --transforms imports && node ./dist/helpers/buildApplication.js ./src/database ./dist/database"
   },
   "repository": {
